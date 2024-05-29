@@ -48,7 +48,8 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
 
-    //mariadb
+    // aws
+    implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
 
     // jpa 파트/implementation
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
