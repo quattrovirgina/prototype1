@@ -7,5 +7,5 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "media")
-public class media {
+public class MediaEntity {
 }
